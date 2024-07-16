@@ -22,9 +22,20 @@ body{
     padding: 20px;
     display: flex;
     color: white;
+    margin-top: 10px;
     background-color: rgba(193, 193, 193, 0.472);
-    margin-top: 30px;
 }
 .informations{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+.nameProfile{
+    font-size: 20px;
+}
+.areaProfile{
+    color: rgb(181, 181, 181);
 }
