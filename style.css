@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    background-color: #1C1C1C;
+
+    color: white;
+    padding-top: 20px;
+}
+#mentores_investimentos h2{
+    margin-bottom: 30px;
+}
+#mentores_investimentos img{
+    border-radius: 30px;
+    width: 100px;
+}
+.profile{
+    padding: 20px;
+    display: flex;
+    color: white;
+    background-color: rgba(193, 193, 193, 0.472);
+}
+.informations{
+    width: 100%;
+}
