@@ -24,7 +24,7 @@ body{
 }
 #mentores_investimentos img{
     border-radius: 30px;
-    width: 100px;
+    width: 85px;
 }
 .profile{
     padding: 20px;
@@ -42,7 +42,7 @@ body{
     flex-direction: column;
 }
 .nameProfile{
-    font-size: 22px;
+    font-size: 20px;
 }
 .areaProfile{
     color: rgb(181, 181, 181);
