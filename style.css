@@ -2,15 +2,21 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+
+    scroll-behavior: smooth;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
 }
 body{
     height: 100vh;
-    text-align: center;
     background-color: #1C1C1C;
 
     color: white;
 }
-#mentores_investimentos h2{
+
+/* Aba investimentos */
+#mentores_investimentos h2, #menus h2, #mentores_programação h2, #mentores_marketing h2{
+    text-align: center;
     background-color: rgb(0, 0, 0);
     padding: 50px;
     color: white;
@@ -40,4 +46,22 @@ body{
 }
 .areaProfile{
     color: rgb(181, 181, 181);
+}
+
+a{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgba(193, 193, 193, 0.472);
+
+    text-decoration: none;
+    transition: 0.2s;
+}
+a:focus{
+    background-color: rgba(152, 152, 152, 0.472);
 }
