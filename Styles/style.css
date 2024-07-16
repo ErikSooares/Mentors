@@ -22,7 +22,7 @@ body{
     color: white;
     margin-bottom: 50px;
 }
-#mentores_investimentos img{
+img{
     border-radius: 30px;
     width: 85px;
 }
@@ -63,5 +63,5 @@ a{
     transition: 0.2s;
 }
 a:focus{
-    background-color: rgba(152, 152, 152, 0.472);
+    background-color: rgba(115, 115, 115, 0.472);
 }
